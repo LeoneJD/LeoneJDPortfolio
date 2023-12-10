@@ -8,15 +8,23 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
   }
-  
-  .logo {
-    background: white; 
-    height: 280px;
-    background-image: url("../images/Leone\ JD.png");
-    background-repeat: no-repeat;
-    background-position: left;
-  }
 
+  header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: white; 
+    padding: auto;
+}
+
+  .logo {
+    display: flex;
+    align-items: left;
+    background: none; 
+    height: auto;
+    color: black;
+      }
+  
   .navbar ul {
     list-style-type: none;
     background-color: white;
@@ -29,25 +37,72 @@
   }
 
  .navbar a {
-    color: aquamarine;
+    color: black;
     text-decoration: none; 
     padding: 25px; 
    
   }
 
  .navbar a:hover{
-    background-color: rgb(252, 161, 217);
+    background-color: rgb(208, 208, 208); 
   }
 
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
+  .hero-banner{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin: 10px; 
+    
   }
   
-  p {
-    margin: 0;
-  }
-  
+  .about-grid {
+    display: grid;
+    grid-template-columns: 30% 70%; 
+    gap: 10px; /
+}
+
+.left-column {
+    max-width: 100%; 
+}
+
+.right-column {
+    display: flex; 
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+}
+
+.grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.merged-top-row {
+    grid-column: 1 / span 2; 
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-item h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.grid-item a {
+    text-decoration: none;
+    color: #0077cc;
+}

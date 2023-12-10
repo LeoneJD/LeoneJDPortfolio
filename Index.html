@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>LeoneJD // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -14,13 +15,13 @@
   <link rel="stylesheet" href="./assets/css/style.css" />
   
   <header>
-    <div class="logo"></div>
+    <div class="logo"><H1>Leone Dale</H1></div>
     <nav class="navbar">
       <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About Me</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -28,19 +29,51 @@
   <!-- hero banner -->
   <section class="hero-banner">
     <div>
-      <h2>Find out more about me and my work as a Web Developer</h2>
+      <P>Find out more about me and my journey to become a front end Web Developer</p>
     </div>
   </section>
 
   <main class="page-wrapper">
+
     <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-    </section>
+  <Section>
+      <div class="about-grid" id="about">
+      <div class="left-column">
+          <img src="assets\images\Work Picture.png" alt="Profile Image">
+      </div>
+      <div class="right-column">
+        <h2>ABOUT ME</h2>
+          <p>I'm a passionate web developer with a love for creating beautiful and functional websites. My journey in the world of web development began several years ago when I discovered the power of coding to bring ideas to life.<br>
+
+            Over the years, I've honed my skills in front-end and back-end development, working with a variety of technologies and frameworks. From crafting pixel-perfect user interfaces to building robust and scalable backend systems, I enjoy every aspect of the web development process.<br>
+            
+            When I'm not coding, you can find me exploring the great outdoors, reading a good book, or experimenting with new recipes in the kitchen. I believe in continuous learning and am always eager to tackle new challenges and stay up-to-date with the latest trends in web development.<br>
+            
+            I'm excited to collaborate on exciting projects, connect with fellow developers, and help bring innovative ideas to fruition. Let's work together to create something amazing!<br>
+            </p>
+      </div>
+  </div>
+  </Section>
 
     <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
+    <section class="section" id="projects">
+        <div class="grid-container">
+            <div class="grid-item merged-top-row">
+                <img src="image1.jpg" alt="Image 1">
+                <h2>Title 1</h2>
+                <a href="#">Link 1</a>
+            </div>
+            <div class="grid-item">
+                <img src="image2.jpg" alt="Image 2">
+                <h2>Title 2</h2>
+                <a href="#">Link 2</a>
+            </div>
+            <div class="grid-item">
+                <img src="image3.jpg" alt="Image 3">
+                <h2>Title 3</h2>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
     </section>
 
     <!-- contact -->
@@ -48,6 +81,18 @@
       <h2>Contact Me</h2>
     </section>
   </main>
+
+  <footer>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="about">About Me</a></li>
+        <li><a href="projects">Projects</a></li>
+        <li><a href="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </footer>
+
 </body>
 
 </html>
