@@ -9,7 +9,36 @@
     line-height: 1.5;
   }
   
-  h1,
+  .logo {
+    background: white; 
+    height: 280px;
+    background-image: url("../images/Leone\ JD.png");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    align-items: right; 
+    Justify-content: space-between; 
+  }
+
+ .navbar a {
+    color: aquamarine;
+    text-decoration: none; 
+    padding: 25px; 
+   
+  }
+
+ .navbar a:hover{
+    background-color: rgb(252, 161, 217);
+  }
+
   h2,
   h3,
   h4,
